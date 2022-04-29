@@ -1,0 +1,32 @@
+{
+  "name": "discord-friend-bot",
+  "version": "1.0.0",
+  "description": "**Bot for requesting friends**\r ===",
+  "main": "bot.ts",
+  "scripts": {
+    "start": "nodemon bot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shokilak/discord-friend-bot.git"
+  },
+  "author": "perezvonish'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shokilak/discord-friend-bot/issues"
+  },
+  "homepage": "https://github.com/shokilak/discord-friend-bot#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.16",
+    "tslint": "^5.12.1",
+    "typescript": "^3.9.10"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.32.0",
+    "discord.js": "^13.6.0"
+  }
+}
